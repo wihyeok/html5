@@ -1,0 +1,4844 @@
+<html lang="ko" lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SKT_e청구서</title>
+<style type="text/css">
+/* Global Styles */
+body {margin:50px 0;font-family:돋움;}
+img {border:0}
+.btn-print {position:absolute;top:-28px;right:0px}
+.btn-logo {position:absolute;top:10px;left:15px;display:block;width:110px;height:50px}
+.outer-box {position:relative;width:800px;margin:0 50px 0 50px}
+.top-box {position:relative;width:800px;height:125px;}
+.main-box {clear:both;width:800px;}
+.copyright {clear:both;width:800px;height:75px;margin-top:60px;}
+.copyright div {width:790px;}
+.logo-skt {clear:both;margin:6px 20px}
+.color-sms {color:#ec1b2e}
+.color-data {color:#f16623}
+.color-add {color:#f99d1e}
+.color-tloaming {color:#72dc00}
+.color-discount {color:#26d0ac}
+.color-tdouble {color:#00adec}
+.color-etc {color:#ba01ff}
+.color-others {color:#fb00ed}
+.table-style {width:730px;text-align:left}
+.table-style table {width:730px;font:normal 12px/17px dotum;color:#000000;}
+.table-style table tr {height:22px}
+.table-style table tr.end td {border-bottom:1px solid #dee5ea}
+.table-style table td{padding-left:8px;border-top:1px solid #dee5ea;border-right:1px solid #dee5ea;padding-top:2px}
+.table-style table td.end {border-right:0px}
+.table-style .title {background-color:#f0f9fe;border-top:1px solid #dee5ea;border-right:1px solid #dee5ea;color:#27a0e5;}
+.table-style .cate{color:#27a0e5;}
+
+.table-style .total {height:22px;background-color:#f0f9fe}
+.table-style .total td {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;border-right:1px dotted #dee5ea}
+.table-style .total td.end {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;}
+.table-style .tend {height:22px;}
+.table-style .tend td {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;}
+.table-style .tend td.end {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;}
+
+
+/* Request Information */
+.request-info {text-align:left}
+.request-info table {margin:5px 0 0 0}
+.request-info table td.title {width:110px;}
+
+/* Details */
+.details {clear:both;padding-top:35px;text-align:left}
+.details table {width:730px;margin:9px 0 0 0;text-align:center;font:normal 11px/17px dotum;}
+.details table td, .details .title{border-right:1px dotted #dee5ea;padding-left:0;}
+
+/* Item Description */
+.item-desc {clear:both;padding-top:35px;text-align:left}
+.item-desc table {width:730px;margin:9px 0 0 0;}
+.item-desc .cate2{color:#27a0e5;padding-left:10px;border-right:1px solid #dee5ea;}
+.item-desc .end2{padding-left:10px;border-right:0px}
+
+.item-desc table td, .item-desc .title{border-right:1px solid #dee5ea;padding-left:0;}
+.style7 {font-size: 12px}
+.style8 {font-size: 12}
+</style>
+<!-- INITECH  Object part Start -->
+<style type="text/css">
+
+html,body{
+min-height:100%;
+height:100%;
+}
+
+.popuplayer {position:absolute;z-index:100;-ms-filter:alpha(opacity=50);filter:alpha(opacity=50);-moz-filter:alpha(opacity=50);-webkit-filter:alpha(opacity=50);opacity:0.3;}
+.popuplayer .back {position:absolute;z-index:101;background:#000;}
+.popup_box {position:absolute;z-index:102;background:#fff;}
+.popup_box .popup_contents {position:absolute;left:0;top:0;width:100%;height:100%;z-index:102;}
+
+</style>
+<script type="text/javascript">
+var typeMSIE                = "MSIE";
+var typeMSIE2 = "Trident";
+var typeCHROME              = "Chrome";
+var typeSAFARI              = "Safari";
+var typeMOBILESAFARI        = "Mobile Safari";
+var typeFIREFOX             = "Firefox";
+var typeFIREFOX36           = "Firefox36";
+var typeOPERA               = "Opera";
+
+var typeMOBILE              = "Mobile";
+var typeNETSCAPE            = "Netscape";
+
+var typeUNSUPPORT           = "Unsupport";
+
+var typeWIN32               = "Win32";
+var typeWIN98               = "Windows 98";
+var typeMACINTEL            = "MacIntel";
+var typeMACPPC              = "MacPPC";
+var typeMACOSX105_1         = "Mac OS X 10_5";
+var typeMACOSX105_2         = "Mac OS X 10.5";
+var typeMACOSX106_1         = "Mac OS X 10_6";
+var typeMACOSX106_2         = "Mac OS X 10.6";
+var typeLINUX               = "Linux";
+var typeLINUX32             = "Linux i";
+var typeLINUX64             = "Linux x86_64";
+
+var typeUBUNTU              = "Ubuntu";
+var typeFEDORA              = "Fedora";
+var typeUBUNTU10                = "Ubuntu10";
+var typeUBUNTU11                = "Ubuntu11";
+var typeFEDORA12                = "Fedora12";
+var typeFEDORA14                = "Fedora14";
+var type64                  = "64";
+var type32                  = "32";
+var typex64                 = "x64";
+var typex32                 = "x32";
+
+var ieVersion           = "4,4,0,29";
+//반드시 .으로 구분해야 한다. CWPlugin_CheckVersion() 참고
+var npWinVersion			= "4.4.0.29";
+var npMacVersion			= "4.4.3.55";
+var npLinuxVersion			= "4.4.1.0";
+var npLinuxU10Deb32Version		= "4.4.3.55";
+var npLinuxU10Deb64Version		= "4.4.3.55";
+var npLinuxU11Deb32Version		= "4.4.3.55";
+var npLinuxU11Deb64Version		= "4.4.3.55";
+var npLinuxF12RPM32Version		= "4.4.3.55";
+var npLinuxF12RPM64Version		= "4.4.3.55";
+var npLinuxF14RPM32Version		= "4.4.3.55";
+var npLinuxF14RPM64Version		= "4.4.3.55";
+
+var CMPlugin_ID = "IniCrossMailObj";
+
+var CMPlugin_CLSID = "AC2CE4A7-75CE-4B11-B245-CE697861C3C1";
+
+var CMPlugin_type = "application/x-initech-crossmail";// CrossMail Plugin의 MIMETYPE, 수정되면 안됨
+
+
+var BaseURL             = "http://emailweb.sktelecom.com";
+//var BaseURL             = location.protocol+"//"+location.host;
+var CodeBase_Win98 = BaseURL + "/initech_201302/client/INISAFEMailv4_98.cab";      // cab파일 url ( 윈98 버전을 링크 )
+var CodeBase_WinIE = BaseURL + "/initech_201302/client/INISAFEMailv4.cab";      // cab파일 url ( 윈98상위 버전을 링크 )
+var CodeBase_Win = BaseURL + "/initech_201302/client/INISAFEMailv4.exe";        // Install File Url ( Win Other Browser )
+var CodeBase_Mac = BaseURL + "/initech_201302/client/INISafeMail_Mac.pkg";         // Install File Url ( Mac )
+var CodeBase_Linux = BaseURL + "/initech_201302/cm_install_linux.html";
+
+var CodeBase_LinuxU10_x86debURL = BaseURL + "/initech_201302/client/inisafemail-plugin-u10_4.4.2-39_i386.deb";
+var CodeBase_LinuxU10_x64debURL = BaseURL + "/initech_201302/client/inisafemail-plugin-u10_4.4.2-39_amd64.deb";
+var CodeBase_LinuxU11_x86debURL = BaseURL + "/initech_201302/client/inisafemail-plugin-u11_4.4.2-39_i386.deb";
+var CodeBase_LinuxU11_x64debURL = BaseURL + "/initech_201302/client/inisafemail-plugin-u11_4.4.2-39_amd64.deb";
+var CodeBase_LinuxF12_x86rpmURL = BaseURL + "/initech_201302/client/inisafemail-plugin-f12_4.4.2-39_i386.rpm";
+var CodeBase_LinuxF12_x64rpmURL = BaseURL + "/initech_201302/client/inisafemail-plugin-f12_4.4.2-39_x86_64.rpm";
+var CodeBase_LinuxF14_x86rpmURL = BaseURL + "/initech_201302/client/inisafemail-plugin-f14_4.4.2-39_i386.rpm";
+var CodeBase_LinuxF14_x64rpmURL = BaseURL + "/initech_201302/client/inisafemail-plugin-f14_4.4.2-39_x86_64.rpm";
+
+var CMPlugin_InstallPageURL = "";// 설치 안내 페이지 URL ( 윈98상위 버전을 링크 )
+
+var cm_versioninfo = null;
+
+var CMPlugin_width = "600";
+var CMPlugin_height = "80";
+
+//confirmui.html의 default 사이즈는 380 * 260 입니다.
+//confirmui.html의 디자인을 변경후 디자인에 맞는 사이즈(pixel)를 아래에 셋팅하시기 바랍니다.
+//var confirmUIWindow_width = "380";
+//var confirmUIWindow_height = "260";
+var confirmUIWindow_width = "488";
+var confirmUIWindow_height = "223";
+
+var attachedfilesUIWindow_width = "520";
+var attachedfilesUIWindow_height = "390";
+
+var browsercharset = "utf-8";
+
+//Btn Src URL
+var strShowBtnSrc = "http://emailweb.sktelecom.com/initech_201302/img/btnView.gif";//Img Src Of ShowMail Button ( if value is "" normal button )
+var strPrintBtnSrc = "";//Img Src Of PrintMail Button ( if value is "" normal button )
+var strAttachedFilesBtnSrc = "";//Img Src Of Attaches Files Button ( if value is "" normal button )
+
+//Show Button
+var bIsShowPrintbtn = "false";//After Decrypt Mail , Show Print Button 
+
+//First Popup ComfirmUI
+var bIsFirstPopupComfirmUI = "true";
+
+function cb_inisafemail_confirm_fail(code, msg) {
+    alert(code+" : "+msg);
+}
+
+function CMPlugin_Install_Linux_U10_x86_Debian() {
+    window.open(CodeBase_LinuxU10_x86debURL, '_self');
+}
+
+function CMPlugin_Install_Linux_U10_x64_Debian() {
+    window.open(CodeBase_LinuxU10_x64debURL, '_self');
+}
+
+function CMPlugin_Install_Linux_U11_x86_Debian() {
+    window.open(CodeBase_LinuxU11_x86debURL, '_self');
+}
+
+function CMPlugin_Install_Linux_U11_x64_Debian() {
+    window.open(CodeBase_LinuxU11_x64debURL, '_self');
+}
+
+function CMPlugin_Install_Linux_F12_x86_RPM() {
+    window.open(CodeBase_LinuxF12_x86rpmURL, '_self');
+}
+
+function CMPlugin_Install_Linux_F12_x64_RPM() {
+    window.open(CodeBase_LinuxF12_x64rpmURL, '_self');
+}
+
+function CMPlugin_Install_Linux_F14_x86_RPM() {
+    window.open(CodeBase_LinuxF14_x86rpmURL, '_self');
+}
+
+function CMPlugin_Install_Linux_F14_x64_RPM() {
+    window.open(CodeBase_LinuxF14_x64rpmURL, '_self');
+}
+
+// 접속 브라우저의 종류 체크
+function CMPlugin_CheckBrowser() 
+{   
+    var result;
+    var typeUserAgent;
+
+    typeUserAgent = navigator.userAgent;
+//    if (typeUserAgent.indexOf (typeMSIE) != -1){        // Explorer     
+    if (typeUserAgent.indexOf (this.typeMSIE) != -1 || typeUserAgent.indexOf (this.typeMSIE2) != -1){          // Explorer
+        result = typeMSIE;      
+    } else if (typeUserAgent.indexOf (typeCHROME) != -1){       // Chrome       
+        result = typeCHROME;        
+    } else if (typeUserAgent.indexOf (typeSAFARI) != -1){       // Safari       
+        if (typeUserAgent.indexOf (typeMOBILE) != -1){          // Mobile Safari
+            result = typeUNSUPPORT;
+        } else {
+            result = typeSAFARI;
+        }       
+    } else if (typeUserAgent.indexOf (typeOPERA) != -1){            // Opera        
+        result = typeOPERA;     
+    } else if (typeUserAgent.indexOf (typeFIREFOX) != -1) {     
+        if (typeUserAgent.indexOf (typeNETSCAPE) != -1){        // Netscape 6
+            result = typeUNSUPPORT;
+        } else {                                                    // Firefox
+            result = typeFIREFOX;
+        }       
+    } else {
+        result = this.cUNSUPPORT;                               // Unsupport
+    }
+    return result;
+}
+
+//설치된 플러그인 모듈의 버전을 체크한다.
+function CMPlugin_CheckVersion(strDescription, strNewVersion) 
+{
+    var index = strDescription.indexOf('version:', 0);
+    if (index < 0) return true;
+    var strOldVersion = strDescription.substring(index + 8, strDescription.length);
+
+    cm_versioninfo = '\r\nCurrent Version: ' + strOldVersion + '\r\nNew Version: ' + strNewVersion;
+    
+    if (strOldVersion.length <= 0) return true;
+
+    var arrayOldVersion = strOldVersion.split('.');
+    var old_v1 = parseInt(arrayOldVersion[0], 10);//메이저 버전 업데이트시 변경
+    var old_v2 = parseInt(arrayOldVersion[1], 10);//마이너 버전 업데이트시 변경
+    var old_v3 = parseInt(arrayOldVersion[2], 10);//패치 버전 업데이트시 변경
+    var old_v4 = parseInt(arrayOldVersion[3], 10);//빌드 넘버 버전과는 상관없다
+
+    var arrayNewVersion = strNewVersion.split('.');
+    var new_v1 = parseInt(arrayNewVersion[0], 10);
+    var new_v2 = parseInt(arrayNewVersion[1], 10);
+    var new_v3 = parseInt(arrayNewVersion[2], 10);
+    var new_v4 = parseInt(arrayNewVersion[3], 10);
+
+    if (old_v1 > new_v1) return false;
+    if (old_v1 < new_v1) return true;
+    if (old_v2 > new_v2) return false;
+    if (old_v2 < new_v2) return true;
+    if (old_v3 > new_v3) return false;
+    if (old_v3 < new_v3) return true;
+    if (old_v4 > new_v4) return false;
+    if (old_v4 < new_v4) return true;
+
+    return false;
+}
+
+// 플러그인 모듈이 설치되어 있는지, 설치되어 있으면 최신버전인지 검사하여 설치가 필요하면 설치파일을 다운로드 함
+// 리턴값 1 : 설치되어있지 않음
+// 리턴값 2 : 업데이트 되어야함
+function CheckIsPluginUpdate(typeOS, typeBit)
+{
+    // CMPlugin_MimeType의 플러그인 객체 찾기
+    var CMPluginObject = navigator.mimeTypes[CMPlugin_type];
+
+    if ( CMPluginObject && CMPluginObject.enabledPlugin)
+    {
+        if (typeOS == typeWIN32){
+            npVersion = npWinVersion;
+        } else if (typeOS == typeMACINTEL){
+            npVersion = npMacVersion;
+        } else if (typeOS == typeFEDORA12) {
+            if (typeBit == typex64) {
+                npVersion = npLinuxF12RPM64Version;
+                CodeBase_Linux = CodeBase_LinuxF12_x64rpmURL;
+            } else {
+                npVersion = npLinuxF12RPM32Version;
+                CodeBase_Linux = CodeBase_LinuxF12_x86rpmURL;
+            }
+        } else if (typeOS == typeFEDORA || typeOS == typeFEDORA14) {
+            if (typeBit == typex64) {
+                npVersion = npLinuxF14RPM64Version;
+                CodeBase_Linux = CodeBase_LinuxF14_x64rpmURL;
+            } else {
+                npVersion = npLinuxF14RPM32Version;
+                CodeBase_Linux = CodeBase_LinuxF14_x86rpmURL;
+            }
+        } else if (typeOS == typeUBUNTU10) {
+            if (typeBit == typex64) {
+                npVersion = npLinuxU10Deb64Version;
+                CodeBase_Linux = CodeBase_LinuxU10_x64debURL;
+            } else {
+                npVersion = npLinuxU10Deb32Version;
+                CodeBase_Linux = CodeBase_LinuxU10_x86debURL;
+            }
+        } else if (typeOS == typeUBUNTU || typeOS == typeUBUNTU11) {
+            if (typeBit == typex64) {
+                npVersion = npLinuxU11Deb64Version;
+                CodeBase_Linux = CodeBase_LinuxU11_x64debURL;
+            } else {
+                npVersion = npLinuxU11Deb32Version;
+                CodeBase_Linux = CodeBase_LinuxU11_x86debURL;
+            }
+        } else if (typeOS == typeLINUX) {
+            npVersion = npLinuxVersion;
+        } else {
+            return -1;
+        }
+
+        if (CMPlugin_CheckVersion(CMPluginObject.enabledPlugin.description, npVersion)) {
+            return 2;
+        } else {
+            return 0;
+        }
+    } else {
+        return 1;
+    }
+}
+
+function CMPlugin_CheckLinux() {
+    var CMPluginObject = navigator.mimeTypes[CMPlugin_type];
+    if (CMPluginObject && CMPluginObject.enabledPlugin){
+        str = CMPluginObject.enabledPlugin.description;
+        if (str.search(typeUBUNTU10) >= 0) return typeUBUNTU10;
+        else if (str.search(typeFEDORA12) >= 0) return typeFEDORA12;
+        else if (str.search(typeUBUNTU11) >= 0) return typeUBUNTU11;
+        else if (str.search(typeFEDORA14) >= 0) return typeFEDORA14;
+        else if (str.search(typeUBUNTU) >= 0) return typeUBUNTU11;
+        else if (str.search(typeFEDORA) >= 0) return typeFEDORA14;
+    }
+    typeAgent = navigator.userAgent;
+    if (typeAgent.search(typeFIREFOX) >= 0) {
+        if (typeAgent.search(typeFEDORA) >= 0) {
+            var index = typeAgent.indexOf('.fc', 0);
+            if (index < 0) return true;
+            var strVersion = typeAgent.substring(index + 2, 2);
+            var nVersion = parseFloat(strVersion);
+            if (nVersion >= 14) {
+                return typeFEDORA14;
+            } else if (nVersion >= 12) {
+                return typeFEDORA12;
+            }
+        } else if (typeAgent.search(typeUBUNTU) >= 0) {
+            var index = typeAgent.indexOf('Ubuntu/', 0);
+            if (index < 0) return true;
+            var strVersion = typeAgent.substring(index + 7, 2);
+            var nVersion = parseFloat(strVersion);
+            if (nVersion >= 11) {
+                return typeUBUNTU11;
+            } else if (nVersion >= 10) {
+                return typeUBUNTU10;
+            }
+        }
+    } else if (typeAgent.search(typeCHROME) >= 0) {
+        // 구분 안됨
+        return typeLINUX;
+    } else if (typeAgent.search(typeOPERA) >= 0) {
+        // 구분 안됨
+        return typeLINUX;
+    }
+    
+    return typeLINUX;
+}
+
+function CMPlugin_CheckLinuxBit() {
+    var CMPluginObject = navigator.mimeTypes[CMPlugin_type];
+    if (CMPluginObject && CMPluginObject.enabledPlugin){
+        str = CMPluginObject.enabledPlugin.description;
+        if (str.search(typex32) >= 0) return typex32;
+        else if (str.search(typex64) >= 0) return typex64;
+    }
+    return "";
+}
+
+function CheckIsBrowserIE()
+{
+    var chkBrowser = CMPlugin_CheckBrowser();
+    return ( chkBrowser == typeMSIE );
+}
+
+function CheckOSWin98()
+{
+    var typeUserAgent = navigator.userAgent;
+    if (typeUserAgent.indexOf(typeWIN98) != -1)     // Win98        
+        return true;
+    return false;
+}
+
+function chkOpenBrowser()
+{
+    var chkBrowser = CMPlugin_CheckBrowser();
+    return (chkBrowser == typeFIREFOX || chkBrowser == typeSAFARI || chkBrowser == typeCHROME || chkBrowser == typeOPERA);
+}
+
+function CheckNoEmbed()
+{
+    var typeUserAgent;
+    typeUserAgent = navigator.userAgent;
+    
+    if (typeUserAgent.indexOf("AppleWebKit") != -1)
+    {
+        var nRet = typeUserAgent.indexOf("Android");
+        if( nRet != -1 )
+            return true;
+        
+        nRet = typeUserAgent.indexOf("iPhone");
+        if( nRet  != -1 )
+            return true;
+
+        nRet = typeUserAgent.indexOf("iPad");
+        if( nRet != -1 )        
+            return true;
+    }
+    
+    return false;
+}
+
+function ObjectHTML()
+{
+    //var strTagText = "<CENTER>\n";
+	var strTagText = "";
+    var isUsedIE = CheckIsBrowserIE();
+    var isNoEmbed = CheckNoEmbed();
+    if ( true == isUsedIE || true == isNoEmbed )
+    {
+        strTagText = strTagText + "<OBJECT ID='"+CMPlugin_ID+"' ";
+        strTagText = strTagText + "CLASSID='CLSID:"+CMPlugin_CLSID+"' ";
+        if( CheckOSWin98() )
+        {
+            strTagText = strTagText + "CODEBASE='"+CodeBase_Win98;//윈98인경우 기존의 codebase를 사용함
+        } 
+        else
+        {
+            strTagText = strTagText + "CODEBASE='"+CodeBase_WinIE;//윈98상위인 경우 새로운 codebase를 사용함
+        }
+        
+        strTagText = strTagText + "#version="+ieVersion+"' ";
+        strTagText = strTagText + "width='"+CMPlugin_width+"' height='"+CMPlugin_height+"'>\n";
+    }
+    else
+        strTagText = strTagText + "<OBJECT ID='"+CMPlugin_ID+"' width='0' height='0'>\n";
+        
+    document.write( strTagText );
+}
+
+function GetValueFromObject(name, remove) {
+    var rVal = "";
+    var targetElem = document.getElementById(name);
+    if( targetElem != null && targetElem.value != null ) {
+        rVal = targetElem.value;
+    }
+    if( remove ) {
+        rVal.value = "";
+    }
+    return rVal;
+}
+
+function GetPopupObject()
+{
+    var strPopup = 
+    "<div id='all_popup' style='display:none;'>"+
+    "  <div id='all_popuplayer' class='popuplayer'>"+
+    "    <div id='all_back' class='back'>"+
+    "    </div>"+
+    "  </div>"+
+    "  <div class='popup_box' id='popupbox' style='border-bottom:#6f6f6f solid 2px;border-right:#6f6f6f solid 2px'>"+
+
+    //For SKT ComfirmUI Title Remove
+    /*
+    "    <div style='background:#c9c9c9'>"+
+    "      <table id='popupboxtitle'>"+
+    "        <tr>"+
+    "          <td width='98%' align='center'>"+    
+    "            <span id='popupboxtitlecaption' style='color:#000000'></span>"+
+    "          </td>"+
+    "          <td width='2%' align='center'>"+
+    "            <a href='#' onclick='HidePopup();'>x</a>"+
+    "          </td>"+
+    "        </tr>"+
+    "      </table>"+
+    "    </div>"+
+   */
+    "    <div class='popup_content' id='popupcontent'>"+
+    "    </div>"+
+    "  </div>"+
+    "</div>";   
+
+    return strPopup;
+}
+
+
+function CMPlugin_Write() 
+{
+    if ( true == CheckIsBrowserIE() )
+        return;
+
+    if( true == CheckNoEmbed() )
+        return;
+        
+    var removeFlag = false;
+    var CMPlugin_IniSMContents = GetValueFromObject("IniSMContents", removeFlag);
+    var CMPlugin_AttachedFile = GetValueFromObject("AttachedFile", removeFlag);
+    var CMPlugin_OpenChk = GetValueFromObject("OpenChk", removeFlag);
+    var CMPlugin_ConfirmUI = GetValueFromObject("ConfirmUI", removeFlag);
+    var CMPlugin_OptData = GetValueFromObject("OptData", removeFlag);
+    var CMPlugin_Signature = GetValueFromObject("Signature", removeFlag);
+    
+
+    var typePlatform = navigator.platform;
+    if (typePlatform == typeWIN32 && true == chkOpenBrowser()) // WIN32 && notIE
+    {
+        var pluginInstallStatus = CheckIsPluginUpdate(typeWIN32, "");
+        if ( 1 == pluginInstallStatus )
+        {
+            alert('플러그인 설치가 필요합니다. 설치 페이지로 이동합니다.');
+            window.location.href = CodeBase_Win;//CMPlugin_InstallPageURL;
+        }
+        else if ( 2 == pluginInstallStatus )
+        {
+            alert('플러그인 업데이트가 필요합니다. 설치 페이지로 이동합니다. ' + cm_versioninfo);
+            window.location.href = CodeBase_Win;//CMPlugin_InstallPageURL;
+        }
+        else if ( 0 == pluginInstallStatus )    
+        {
+        	strTagText = "";//Because Use height:100% On FireFox , Remove <Center>  
+            //strTagText = "<CENTER>\n";//opera에서 plugin ui활성화를 위해서 넣어줘야 한다.
+            strTagText = strTagText + "<EMBED type='"+CMPlugin_type+"' ";
+            strTagText = strTagText + "id='"+CMPlugin_ID+"' name='"+CMPlugin_ID+"' ";
+            strTagText = strTagText + "pluginspage='"+CMPlugin_InstallPageURL+"' ";
+            strTagText = strTagText + "width='100%' height='100%' style='min-height:100%;'";//Insert min-height style Because Of WebKit Base ( safari , chrome )
+            strTagText = strTagText + "clsid='CLSID:"+CMPlugin_CLSID+"' ";
+            strTagText = strTagText + "CODEBASE='"+CodeBase_WinIE+"#version="+npWinVersion+"' ";
+        
+            strTagText = strTagText + "IniSMContents='"+CMPlugin_IniSMContents+"' ";
+            strTagText = strTagText + "AttachedFile='"+CMPlugin_AttachedFile+"' ";
+            strTagText = strTagText + "OpenChk='"+CMPlugin_OpenChk+"' ";
+            strTagText = strTagText + "ConfirmUI='"+CMPlugin_ConfirmUI+"' ";
+            strTagText = strTagText + "OptData='"+CMPlugin_OptData+"' ";
+            strTagText = strTagText + "Signature='"+CMPlugin_Signature+"'>\n";
+
+			strTagText = strTagText + "</EMBED><CENTER>";//Because Use height:100% On FireFox , Remove <Center>  
+            //strTagText = strTagText + "</EMBED><DIV id='InitechSMMsgToReplace'></DIV>\n<DIV id='InitechCancelMsgToReplace'></DIV>\n</CENTER>";
+        
+            document.write( GetPopupObject() + strTagText );
+                
+            var IniCMPluginObj = document.getElementsByName(CMPlugin_ID);
+            if ( IniCMPluginObj[0] )
+                IniCMPluginObj[0].Ready();//chrome , safari , opera의 경우 plugin인 활성화를 위해서 내부 함수를 호출한다.
+        }
+    }
+    else if ( (typePlatform == typeMACINTEL || typePlatform == typeMACPPC) && true == chkOpenBrowser() ) //MAC
+    { 
+        var pluginInstallStatus = CheckIsPluginUpdate(typeMACINTEL, "");
+        if ( 1 == pluginInstallStatus )
+        {
+            alert('플러그인 설치가 필요합니다. 설치 페이지로 이동합니다.');
+            window.location.href = CodeBase_Mac;//CMPlugin_InstallPageURL;
+        }
+        else if ( 2 == pluginInstallStatus )
+        {
+            alert('플러그인 업데이트가 필요합니다. 설치 페이지로 이동합니다. ' + cm_versioninfo);
+            window.location.href = CodeBase_Mac;//CMPlugin_InstallPageURL;
+        }
+        else if ( 0 == pluginInstallStatus )
+        {
+            strTagText = "<CENTER>\n";//opera에서 plugin ui활성화를 위해서 넣어줘야 한다.
+            strTagText = strTagText + "<EMBED type='"+CMPlugin_type+"' ";
+            strTagText = strTagText + "id='"+CMPlugin_ID+"' name='"+CMPlugin_ID+"' ";
+            strTagText = strTagText + "pluginspage='"+CMPlugin_InstallPageURL+"' ";
+            strTagText = strTagText + "width='0 px' height='0 px' ";
+            strTagText = strTagText + "clsid='CLSID:"+CMPlugin_CLSID+"' ";
+            strTagText = strTagText + "CODEBASE='"+CodeBase_WinIE+"#version="+npMacVersion+"' ";
+        
+            strTagText = strTagText + "IniSMContents='"+CMPlugin_IniSMContents+"' ";
+            strTagText = strTagText + "AttachedFile='"+CMPlugin_AttachedFile+"' ";
+        
+        
+            strTagText = strTagText + "OpenChk='"+CMPlugin_OpenChk+"' ";
+            strTagText = strTagText + "ConfirmUI='"+CMPlugin_ConfirmUI+"' ";
+            strTagText = strTagText + "OptData='"+CMPlugin_OptData+"' ";
+            strTagText = strTagText + "Signature='"+CMPlugin_Signature+"'>\n";
+
+            strTagText = strTagText + "</EMBED>\n";
+            strTagText = strTagText + "</CENTER>";
+        
+            document.write( GetPopupObject() + strTagText );
+
+            var IniCMPluginObj = document.getElementsByName(CMPlugin_ID);
+            if ( IniCMPluginObj[0] )
+            {
+                if ( "TRUE" == ( msg = IniCMPluginObj[0].ReadyMail( strShowBtnSrc , strPrintBtnSrc , strAttachedFilesBtnSrc , bIsShowPrintbtn , browsercharset ) ) )
+                {
+                	if ( "true" == bIsFirstPopupComfirmUI )
+	                    ShowConfirmUI();
+    	            return;
+                }
+            }
+            else
+                msg = "보안메일 초기화 오류가 발생하였습니다. - 브라우저를 종류후 보안메일을 다시 설치해주십시요. -";
+            alert(msg);
+        }
+    } 
+    else if (typePlatform.search(typeLINUX) >= 0 && true == chkOpenBrowser() ) // linux
+    {
+        var linuxtype = "";
+        var linuxbit = "";
+        
+        if ((typePlatform == typeLINUX || typePlatform.search(typeLINUX32)) >= 0 ||
+                (typePlatform.search(typeLINUX64) >= 0)) {
+            linuxtype = CMPlugin_CheckLinux();
+            linuxbit = CMPlugin_CheckLinuxBit();            
+
+            var pluginInstallStatus = CheckIsPluginUpdate(linuxtype, linuxbit);
+        
+            if ( 1 == pluginInstallStatus )
+            {
+                alert('플러그인 설치가 필요합니다. 설치 페이지로 이동합니다.');
+                window.location.href = CodeBase_Linux;//CMPlugin_InstallPageURL;
+            }
+            else if ( 2 == pluginInstallStatus )
+            {
+                alert('플러그인 업데이트가 필요합니다. 설치 페이지로 이동합니다. ' + cm_versioninfo);
+                window.location.href = CodeBase_Linux;//CMPlugin_InstallPageURL;
+            }
+            else if ( 0 == pluginInstallStatus )
+            {
+                strTagText = "<CENTER>\n";//opera에서 plugin ui활성화를 위해서 넣어줘야 한다.
+                strTagText = strTagText + "<EMBED type='"+CMPlugin_type+"' ";
+                strTagText = strTagText + "id='"+CMPlugin_ID+"' name='"+CMPlugin_ID+"' ";
+                strTagText = strTagText + "pluginspage='"+CMPlugin_InstallPageURL+"' ";
+                strTagText = strTagText + "width='0 px' height='0 px' ";
+                strTagText = strTagText + "clsid='CLSID:"+CMPlugin_CLSID+"' ";
+                strTagText = strTagText + "CODEBASE='"+CodeBase_WinIE+"#version="+npLinuxVersion+"' ";
+            
+                strTagText = strTagText + "IniSMContents='"+CMPlugin_IniSMContents+"' ";
+                strTagText = strTagText + "AttachedFile='"+CMPlugin_AttachedFile+"' ";
+            
+            
+                strTagText = strTagText + "OpenChk='"+CMPlugin_OpenChk+"' ";
+                strTagText = strTagText + "ConfirmUI='"+CMPlugin_ConfirmUI+"' ";
+                strTagText = strTagText + "OptData='"+CMPlugin_OptData+"' ";
+                strTagText = strTagText + "Signature='"+CMPlugin_Signature+"'>\n";
+    
+                strTagText = strTagText + "</EMBED>\n";
+                strTagText = strTagText + "</CENTER>";
+            
+                document.write( GetPopupObject() + strTagText );
+    
+                var IniCMPluginObj = document.getElementsByName(CMPlugin_ID);
+                if ( IniCMPluginObj[0] )
+                {
+	                if ( "TRUE" == ( msg = IniCMPluginObj[0].ReadyMail( strShowBtnSrc , strPrintBtnSrc , strAttachedFilesBtnSrc , bIsShowPrintbtn , browsercharset ) ) )
+    	            {
+        	        	if ( "true" == bIsFirstPopupComfirmUI )
+	        	            ShowConfirmUI();
+    	        	    return;
+                	}
+                }
+                else
+                    msg = "보안메일 초기화 오류가 발생하였습니다. - 브라우저를 종류후 보안메일을 다시 설치해주십시요. -";
+                alert(msg);
+            }
+        } else {
+            msg = "지원하지 않는 운영체제입니다. [" + typePlatform + "]";
+            alert(msg);
+        }
+    } 
+    else // other OS
+    { 
+        msg = "지원하지 않는 운영체제입니다. [" + typePlatform + "]";
+        alert(msg);
+    }
+}
+
+function ShowConfirmUI() 
+{
+    if ( true == CheckIsBrowserIE() )
+        return;
+
+    if( true == CheckNoEmbed() )
+        return;
+        
+    var IniCMPluginObj = document.getElementsByName(CMPlugin_ID);
+    if ( IniCMPluginObj[0] )
+    {
+        var strConfirmUIRet = IniCMPluginObj[0].ShowConfirmUI(browsercharset);
+        if ( "TRUE" == strConfirmUIRet )
+            ShowPopup( "보안메일 비밀번호 입력" , confirmUIWindow_width , confirmUIWindow_height );
+        else
+            alert( strConfirmUIRet );
+    }
+}
+
+function DecEncMail( form )
+{
+    var typePlatform = navigator.platform;
+
+    //MAC || Linux
+    if ( ( (typePlatform == typeMACINTEL || typePlatform == typeMACPPC) && true == chkOpenBrowser() ) ||
+        (typePlatform.search(typeLINUX) >= 0 && true == chkOpenBrowser() ) )
+    {
+        if ( null == form )
+        {
+            var IniCMPluginObj = document.getElementsByName(CMPlugin_ID);
+            if ( IniCMPluginObj[0] )
+            {
+                var strDecMailRet = IniCMPluginObj[0].ShowDecryptMail();
+                if ( "TRUE" == strDecMailRet )
+                    HidePopup();
+                else
+                    alert( strDecMailRet );
+            }
+            
+            return;
+        }
+    }
+        
+    //Other
+    form.action="to-inisafemail://confirmcodeinput";
+    form.submit();
+}
+
+function DecEncMailKey( event )
+{
+    var keyCode = ('which' in event) ? event.which : event.keyCode;
+            
+    if ( 13 == keyCode )
+        DecEncMail( null );
+}
+
+function PrintMail()
+{
+    self.window.print();
+}
+
+function ShowAttachedFiles()
+{
+    var IniCMPluginObj = document.getElementsByName(CMPlugin_ID);
+    if ( IniCMPluginObj[0] )
+    {
+        var strShowAttachedfilesRet = IniCMPluginObj[0].ShowAttachedFiles(browsercharset);
+        if ( "TRUE" == strShowAttachedfilesRet )
+            ShowPopup( "첨부파일창" , attachedfilesUIWindow_width , attachedfilesUIWindow_height );
+        else
+            alert( strShowAttachedfilesRet );
+    }
+}
+
+function HidePopup()
+{
+	if ( null != document.getElementById('ShowComfirUIBtn') )
+		document.getElementById('ShowComfirUIBtn').style.display='';  
+    document.getElementById('all_popup').style.display='none';  
+}
+
+function ShowPopup( strTitle , strPopupWidth , strPopupHeight )
+{
+	if ( null != document.getElementById('ShowComfirUIBtn') )
+		document.getElementById('ShowComfirUIBtn').style.display='none';  
+		
+    var nPopupLeft = 0 , nPopupTop = 0 , nClientWidth = 0 , nClientHeight = 0;
+    var nDocWidth = 0 , nDocHeight = 0;
+    var chkBrowser = CMPlugin_CheckBrowser();
+    if (  chkBrowser == typeFIREFOX )
+    {
+	    nClientWidth = window.innerWidth;
+	    nClientHeight = window.innerHeight;
+    }
+    else
+    {
+    	nClientWidth = document.body.clientWidth;
+	    nClientHeight = document.body.clientHeight;
+    }
+    
+    nPopupLeft = document.body.scrollLeft + ( nClientWidth - parseInt( strPopupWidth ) ) / 2;
+    nPopupTop = document.body.scrollTop + ( nClientHeight - parseInt( strPopupHeight ) ) / 2;
+    nDocWidth = document.body.scrollLeft + nClientWidth;
+    nDocHeight = document.body.scrollTop + nClientHeight;
+
+    document.getElementById('all_popuplayer').style.top=0+"px";
+    document.getElementById('all_popuplayer').style.left=0+"px";
+    document.getElementById('all_popuplayer').style.width=nDocWidth+"px";
+    document.getElementById('all_popuplayer').style.height=nDocHeight+"px";
+    
+    document.getElementById('all_back').style.top=0+"px";
+    document.getElementById('all_back').style.left=0+"px";
+    document.getElementById('all_back').style.width=nDocWidth+"px";
+    document.getElementById('all_back').style.height=nDocHeight+"px";
+    
+    document.getElementById('popupbox').style.top=nPopupTop+"px";
+    document.getElementById('popupbox').style.left=nPopupLeft+"px";      
+    document.getElementById('popupcontent').style.width=parseInt( strPopupWidth )+"px";
+    document.getElementById('popupcontent').style.height=parseInt( strPopupHeight )+"px";
+    
+    //For SKT ComfirmUI Title Remove
+    //document.getElementById('popupboxtitle').style.width=parseInt( strPopupWidth )-6+"px";
+    //document.getElementById('popupboxtitlecaption').innerHTML=strTitle;
+	
+    document.getElementById('all_popup').style.display='';
+}
+</script>
+<!-- INITECH  Object part END -->
+</head>
+
+
+<body style="margin: 0px; padding: 0px; border: 0px currentColor;">
+<script src="http://emailweb.sktelecom.com/initech/js/inisafemail.js"></script>
+
+<div id="InitechSMMsgToReplace"></div>
+
+
+
+<title>SKT_e요금안내서</title>
+<style type="text/css">
+/* Global Styles */
+body {margin:50px 0;font-family:돋움;}
+img {border:0}
+.btn-print {position:absolute;top:-28px;right:0px}
+.btn-logo {position:absolute;top:10px;left:15px;display:block;width:110px;height:50px}
+.outer-box {position:relative;width:800px;margin:0 50px 0 50px}
+.top-box {position:relative;width:800px;height:125px;}
+.main-box {clear:both;width:800px;}
+.copyright {clear:both;width:800px;height:75px;margin-top:60px;}
+.copyright div {width:790px;}
+.logo-skt {clear:both;margin:6px 20px}
+.color-sms {color:#ec1b2e}
+.color-data {color:#f16623}
+.color-add {color:#f99d1e}
+.color-tloaming {color:#72dc00}
+.color-discount {color:#26d0ac}
+.color-tdouble {color:#00adec}
+.color-etc {color:#ba01ff}
+.color-others {color:#fb00ed}
+.table-style {width:730px;text-align:left}
+.table-style table {width:730px;font:normal 12px/17px dotum;color:#000000;}
+.table-style table tr {height:22px}
+.table-style table tr.end td {border-bottom:1px solid #dee5ea}
+.table-style table td{padding-left:8px;border-top:1px solid #dee5ea;border-right:1px solid #dee5ea;padding-top:2px}
+.table-style table td.end {border-right:0px}
+.table-style .title {background-color:#f0f9fe;border-top:1px solid #dee5ea;border-right:1px solid #dee5ea;color:#27a0e5;}
+.table-style .cate{color:#27a0e5;}
+
+.table-style .total {height:22px;background-color:#f0f9fe}
+.table-style .total td {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;border-right:1px dotted #dee5ea}
+.table-style .total td.end {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;}
+.table-style .tend {height:22px;}
+.table-style .tend td {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;}
+.table-style .tend td.end {border-top:1px solid #dee5ea;border-bottom:1px solid #dee5ea;}
+
+
+/* Request Information */
+.request-info {text-align:left}
+.request-info table {margin:5px 0 0 0}
+.request-info table td.title {width:110px;}
+
+/* Details */
+.details {clear:both;padding-top:35px;text-align:left}
+.details table {width:730px;margin:9px 0 0 0;text-align:center;font:normal 11px/17px dotum;}
+.details table td, .details .title{border-right:1px dotted #dee5ea;padding-left:0;}
+
+/* Item Description */
+.item-desc {clear:both;padding-top:35px;text-align:left}
+.item-desc table {width:730px;margin:9px 0 0 0;}
+.item-desc .cate2{color:#27a0e5;padding-left:10px;border-right:1px solid #dee5ea;}
+.item-desc .end2{padding-left:10px;border-right:0px}
+
+.item-desc table td, .item-desc .title{border-right:1px solid #dee5ea;padding-left:0;}
+.style7 {font-size: 12px}
+.style8 {font-size: 12}
+</style>
+
+
+
+<center>
+<div class="outer-box" style='background: url("http://emailweb.sktelecom.com/template/200910/000000000001862/mainbox-bg.gif") repeat-y;'>
+<!-- 인쇄하기 버튼 -->
+<a href="javascript:window.print()"><img class="btn-print" src="http://emailweb.sktelecom.com/template/200910/000000000001862/btn-print.gif"></a>
+
+<!-- 상단 - 날짜 & 메뉴 -->
+<div class="top-box" style='background: url("http://emailweb.sktelecom.com/template/200910/000000000001862/mainbox-top.gif") no-repeat;'></div>
+<!-- 본문BOX : Start -->
+<div class="main-box">
+	<!-- 이용요금 : Start -->
+  <div id="charge-list" style="display: block;">
+		<!-- 신청정보 : Start -->
+    <div class="request-info table-style">
+    	<img style="margin-bottom: 6px;" alt="" src="http://emailweb.sktelecom.com/template/200910/000000000001862/ttl-info.gif">
+      <table border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+          <td class="title" style="width: 144px;">전화번호</td>
+          <td style="width: 220px;">01048865126</td>
+          <td class="title" style="width: 144px;">신청접수자ID</td>
+          <td class="end" style="width: 220px;">ZZ03395</td>
+      </tr>
+      <tr>
+          <td class="title">고객명</td>
+          <td>위혁</td>
+          <td class="title">열람기간</td>
+          <td class="end">2018/09/01~2018/09/30</td>
+      </tr>
+      <tr>
+          <td class="title">신청인</td>
+          <td>김현미</td>
+          <td class="title">열람항목</td>
+          <td class="end">국내/메시지</td>
+      </tr>
+      <tr class="end">
+          <td class="title">신청번호</td>
+          <td class="end" colspan="3">20181030_E005040001</td>
+      </tr>
+      </tbody></table>
+		</div>
+    <!-- 신청정보 : End -->
+
+    <!-- 상세내역 : Start -->
+    <div class="details table-style">
+    	<img style="margin-bottom: 6px;" alt="" src="http://emailweb.sktelecom.com/template/200910/000000000001862/ttl-detail.gif">
+      <table border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr class="title">
+         <td style="width: 73px;">구분</td>
+         <td style="width: 60px;">통화일시</td>
+         <td style="width: 60px;">SMS<br>수신시간</td>
+         <td style="width: 50px;">통화시간</td>
+         <td style="width: 78px;">상대전화번호</td>
+         <td style="width: 50px;">사용량<br>(KB량)</td>
+         <td style="width: 50px;">할인 전<br>요금</td>
+         <td style="width: 50px;">할인금액</td>
+         <td style="width: 50px;">할인 후<br>요금</td>
+         <td style="width: 78px;">할인내용</td>
+		 <td style="width: 78px;">비고</td>
+         <td class="end" style="width: 65px;">네트워크<br>유형</td>
+      </tr>
+
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/02  19:36:11 </td>
+          <td> &nbsp; </td>
+          <td> 00:22 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 22.00 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/02  19:44:52 </td>
+          <td> &nbsp; </td>
+          <td> 00:42 </td>
+          <td> 03180**3*** </td>
+          <td align="right"> 42.00 </td>
+          <td align="right"> 75.60 </td>
+          <td align="right"> 75.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/02  21:18:33 </td>
+          <td> &nbsp; </td>
+          <td> 00:18 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 18.00 </td>
+          <td align="right"> 32.40 </td>
+          <td align="right"> 32.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  09:51:28 </td>
+          <td> &nbsp; </td>
+          <td> 01:43 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 103.00 </td>
+          <td align="right"> 185.40 </td>
+          <td align="right"> 185.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  15:55:13 </td>
+          <td> &nbsp; </td>
+          <td> 00:56 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 56.00 </td>
+          <td align="right"> 100.80 </td>
+          <td align="right"> 100.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  15:56:22 </td>
+          <td> &nbsp; </td>
+          <td> 00:47 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 47.00 </td>
+          <td align="right"> 84.60 </td>
+          <td align="right"> 84.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  15:57:29 </td>
+          <td> &nbsp; </td>
+          <td> 01:40 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 100.00 </td>
+          <td align="right"> 180.00 </td>
+          <td align="right"> 180.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  15:59:18 </td>
+          <td> &nbsp; </td>
+          <td> 02:11 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 131.00 </td>
+          <td align="right"> 235.80 </td>
+          <td align="right"> 235.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  16:01:45 </td>
+          <td> &nbsp; </td>
+          <td> 00:29 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 29.00 </td>
+          <td align="right"> 52.20 </td>
+          <td align="right"> 52.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  19:41:58 </td>
+          <td> &nbsp; </td>
+          <td> 00:32 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 32.00 </td>
+          <td align="right"> 57.60 </td>
+          <td align="right"> 57.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  20:37:37 </td>
+          <td> &nbsp; </td>
+          <td> 00:16 </td>
+          <td> 01093**4*** </td>
+          <td align="right"> 16.00 </td>
+          <td align="right"> 28.80 </td>
+          <td align="right"> 28.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/03  20:41:09 </td>
+          <td> &nbsp; </td>
+          <td> 00:30 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 30.00 </td>
+          <td align="right"> 54.00 </td>
+          <td align="right"> 54.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/04  11:04:43 </td>
+          <td> &nbsp; </td>
+          <td> 01:13 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 73.00 </td>
+          <td align="right"> 131.40 </td>
+          <td align="right"> 131.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/04  12:22:08 </td>
+          <td> &nbsp; </td>
+          <td> 00:27 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/04  13:00:58 </td>
+          <td> &nbsp; </td>
+          <td> 06:15 </td>
+          <td> 021** </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> &nbsp; </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/04  13:07:49 </td>
+          <td> &nbsp; </td>
+          <td> 02:07 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 127.00 </td>
+          <td align="right"> 228.60 </td>
+          <td align="right"> 228.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/04  15:22:35 </td>
+          <td> &nbsp; </td>
+          <td> 00:28 </td>
+          <td> 01045**9*** </td>
+          <td align="right"> 28.00 </td>
+          <td align="right"> 50.40 </td>
+          <td align="right"> 50.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/04  16:47:28 </td>
+          <td> &nbsp; </td>
+          <td> 01:19 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 79.00 </td>
+          <td align="right"> 142.20 </td>
+          <td align="right"> 142.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/04  17:22:41 </td>
+          <td> 18/09/04 17:22:42 </td>
+          <td> &nbsp; </td>
+          <td> 01093**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/04  18:52:14 </td>
+          <td> &nbsp; </td>
+          <td> 03:44 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 224.00 </td>
+          <td align="right"> 403.20 </td>
+          <td align="right"> 403.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/05  08:29:22 </td>
+          <td> &nbsp; </td>
+          <td> 03:08 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 188.00 </td>
+          <td align="right"> 338.40 </td>
+          <td align="right"> 338.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/05  09:50:55 </td>
+          <td> &nbsp; </td>
+          <td> 00:27 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  10:48:36 </td>
+          <td> 18/09/05 10:48:38 </td>
+          <td> &nbsp; </td>
+          <td> 01095**1*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  11:43:42 </td>
+          <td> 18/09/05 11:43:44 </td>
+          <td> &nbsp; </td>
+          <td> 01095**1*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  12:41:26 </td>
+          <td> 18/09/05 12:41:27 </td>
+          <td> &nbsp; </td>
+          <td> 01097**1*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  12:42:24 </td>
+          <td> 18/09/05 12:42:25 </td>
+          <td> &nbsp; </td>
+          <td> 01071**9*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  16:06:24 </td>
+          <td> 18/09/05 16:06:27 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  16:19:52 </td>
+          <td> 18/09/05 16:19:54 </td>
+          <td> &nbsp; </td>
+          <td> 07077**9*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+                              <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  16:53:22 </td>
+          <td> 18/09/05 16:53:24 </td>
+          <td> &nbsp; </td>
+          <td> 01057**7*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  17:58:53 </td>
+          <td> 18/09/05 17:58:56 </td>
+          <td> &nbsp; </td>
+          <td> 01088**7*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  17:59:07 </td>
+          <td> 18/09/05 17:59:08 </td>
+          <td> &nbsp; </td>
+          <td> 01087**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  17:59:30 </td>
+          <td> 18/09/05 17:59:33 </td>
+          <td> &nbsp; </td>
+          <td> 01088**7*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  18:23:39 </td>
+          <td> 18/09/05 18:23:40 </td>
+          <td> &nbsp; </td>
+          <td> 01041**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  21:38:56 </td>
+          <td> 18/09/05 21:38:57 </td>
+          <td> &nbsp; </td>
+          <td> 01087**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  21:40:25 </td>
+          <td> 18/09/05 21:40:27 </td>
+          <td> &nbsp; </td>
+          <td> 01057**7*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  21:42:20 </td>
+          <td> 18/09/05 21:42:21 </td>
+          <td> &nbsp; </td>
+          <td> 01053**8*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  21:45:16 </td>
+          <td> 18/09/05 21:45:17 </td>
+          <td> &nbsp; </td>
+          <td> 01053**8*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  21:46:16 </td>
+          <td> 18/09/05 21:46:17 </td>
+          <td> &nbsp; </td>
+          <td> 01053**8*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/05  21:49:16 </td>
+          <td> 18/09/05 21:49:18 </td>
+          <td> &nbsp; </td>
+          <td> 01053**8*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/06  10:06:51 </td>
+          <td> &nbsp; </td>
+          <td> 00:42 </td>
+          <td> 1** </td>
+          <td align="right"> 42.00 </td>
+          <td align="right"> 75.60 </td>
+          <td align="right"> 75.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/06  11:26:38 </td>
+          <td> 18/09/06 11:26:39 </td>
+          <td> &nbsp; </td>
+          <td> 01090**8*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/06  11:28:49 </td>
+          <td> 18/09/06 11:28:51 </td>
+          <td> &nbsp; </td>
+          <td> 01090**8*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/06  13:24:18 </td>
+          <td> 18/09/06 13:24:19 </td>
+          <td> &nbsp; </td>
+          <td> 01050**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/06  13:27:47 </td>
+          <td> 18/09/06 13:27:49 </td>
+          <td> &nbsp; </td>
+          <td> 01050**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/06  14:44:58 </td>
+          <td> 18/09/06 14:45:00 </td>
+          <td> &nbsp; </td>
+          <td> 01020**8*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+                        <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/06  19:58:31 </td>
+          <td> &nbsp; </td>
+          <td> 01:23 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 83.00 </td>
+          <td align="right"> 149.40 </td>
+          <td align="right"> 149.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                        <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/07  10:43:59 </td>
+          <td> &nbsp; </td>
+          <td> 00:06 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 6.00 </td>
+          <td align="right"> 10.80 </td>
+          <td align="right"> 10.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                  <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/07  18:15:27 </td>
+          <td> 18/09/07 18:15:29 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/07  18:52:15 </td>
+          <td> &nbsp; </td>
+          <td> 01:20 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 80.00 </td>
+          <td align="right"> 144.00 </td>
+          <td align="right"> 144.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/08  09:15:51 </td>
+          <td> &nbsp; </td>
+          <td> 00:14 </td>
+          <td> 01065**6*** </td>
+          <td align="right"> 14.00 </td>
+          <td align="right"> 25.20 </td>
+          <td align="right"> 25.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/08  12:43:38 </td>
+          <td> &nbsp; </td>
+          <td> 00:28 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 28.00 </td>
+          <td align="right"> 50.40 </td>
+          <td align="right"> 50.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/08  15:32:03 </td>
+          <td> &nbsp; </td>
+          <td> 00:15 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 15.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/08  16:45:33 </td>
+          <td> &nbsp; </td>
+          <td> 02:07 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 127.00 </td>
+          <td align="right"> 228.60 </td>
+          <td align="right"> 228.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/08  16:54:07 </td>
+          <td> &nbsp; </td>
+          <td> 01:17 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 77.00 </td>
+          <td align="right"> 138.60 </td>
+          <td align="right"> 138.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/08  17:14:22 </td>
+          <td> &nbsp; </td>
+          <td> 00:56 </td>
+          <td> 01091**5*** </td>
+          <td align="right"> 56.00 </td>
+          <td align="right"> 100.80 </td>
+          <td align="right"> 100.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/08  17:29:54 </td>
+          <td> &nbsp; </td>
+          <td> 00:27 </td>
+          <td> 01091**5*** </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/09  10:55:43 </td>
+          <td> &nbsp; </td>
+          <td> 00:29 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 29.00 </td>
+          <td align="right"> 52.20 </td>
+          <td align="right"> 52.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/09  14:57:41 </td>
+          <td> &nbsp; </td>
+          <td> 00:17 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 17.00 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/09  16:08:08 </td>
+          <td> &nbsp; </td>
+          <td> 00:23 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 23.00 </td>
+          <td align="right"> 41.40 </td>
+          <td align="right"> 41.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/09  16:26:23 </td>
+          <td> &nbsp; </td>
+          <td> 00:32 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 32.00 </td>
+          <td align="right"> 57.60 </td>
+          <td align="right"> 57.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/09  17:39:27 </td>
+          <td> &nbsp; </td>
+          <td> 00:38 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 38.00 </td>
+          <td align="right"> 68.40 </td>
+          <td align="right"> 68.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/09  18:22:24 </td>
+          <td> 18/09/09 18:22:26 </td>
+          <td> &nbsp; </td>
+          <td> 028**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/10  13:16:32 </td>
+          <td> &nbsp; </td>
+          <td> 00:13 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 13.00 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/10  14:11:50 </td>
+          <td> 18/09/10 14:11:53 </td>
+          <td> &nbsp; </td>
+          <td> 01077**7*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/11  12:19:20 </td>
+          <td> &nbsp; </td>
+          <td> 00:54 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 54.00 </td>
+          <td align="right"> 97.20 </td>
+          <td align="right"> 97.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/11  12:20:34 </td>
+          <td> &nbsp; </td>
+          <td> 03:17 </td>
+          <td> 028**7*** </td>
+          <td align="right"> 197.00 </td>
+          <td align="right"> 354.60 </td>
+          <td align="right"> 354.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/11  12:24:23 </td>
+          <td> &nbsp; </td>
+          <td> 01:36 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 96.00 </td>
+          <td align="right"> 172.80 </td>
+          <td align="right"> 172.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                        <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/11  15:36:44 </td>
+          <td> &nbsp; </td>
+          <td> 02:34 </td>
+          <td> 01077**7*** </td>
+          <td align="right"> 154.00 </td>
+          <td align="right"> 277.20 </td>
+          <td align="right"> 277.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/11  18:58:27 </td>
+          <td> &nbsp; </td>
+          <td> 00:23 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 23.00 </td>
+          <td align="right"> 41.40 </td>
+          <td align="right"> 41.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/11  21:03:51 </td>
+          <td> &nbsp; </td>
+          <td> 00:22 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 22.00 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/12  06:29:59 </td>
+          <td> &nbsp; </td>
+          <td> 02:26 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 146.00 </td>
+          <td align="right"> 262.80 </td>
+          <td align="right"> 262.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/12  07:52:34 </td>
+          <td> &nbsp; </td>
+          <td> 00:55 </td>
+          <td> 01045**5*** </td>
+          <td align="right"> 55.00 </td>
+          <td align="right"> 99.00 </td>
+          <td align="right"> 99.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/12  07:58:24 </td>
+          <td> &nbsp; </td>
+          <td> 00:41 </td>
+          <td> 028**4*** </td>
+          <td align="right"> 41.00 </td>
+          <td align="right"> 73.80 </td>
+          <td align="right"> 73.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/12  11:06:40 </td>
+          <td> &nbsp; </td>
+          <td> 01:10 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 70.00 </td>
+          <td align="right"> 126.00 </td>
+          <td align="right"> 126.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/12  15:33:38 </td>
+          <td> &nbsp; </td>
+          <td> 00:22 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 22.00 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/12  17:43:30 </td>
+          <td> &nbsp; </td>
+          <td> 00:35 </td>
+          <td> 01052**1*** </td>
+          <td align="right"> 35.00 </td>
+          <td align="right"> 63.00 </td>
+          <td align="right"> 63.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/12  19:14:13 </td>
+          <td> &nbsp; </td>
+          <td> 01:45 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 105.00 </td>
+          <td align="right"> 189.00 </td>
+          <td align="right"> 189.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/12  21:14:45 </td>
+          <td> 18/09/12 21:14:46 </td>
+          <td> &nbsp; </td>
+          <td> 01052**1*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/13  09:34:41 </td>
+          <td> 18/09/13 09:34:43 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/13  09:35:51 </td>
+          <td> 18/09/13 09:35:52 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/13  10:12:18 </td>
+          <td> &nbsp; </td>
+          <td> 00:11 </td>
+          <td> 028**8*** </td>
+          <td align="right"> 11.00 </td>
+          <td align="right"> 19.80 </td>
+          <td align="right"> 19.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/13  10:23:06 </td>
+          <td> 18/09/13 10:23:07 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/13  10:30:23 </td>
+          <td> 18/09/13 10:30:24 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/13  12:09:50 </td>
+          <td> &nbsp; </td>
+          <td> 00:02 </td>
+          <td> 0264**7*** </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> &nbsp; </td> 
+          <td style="width: 78px;"> 미완료호 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/13  12:09:59 </td>
+          <td> &nbsp; </td>
+          <td> 00:02 </td>
+          <td> 0264**7*** </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> &nbsp; </td> 
+          <td style="width: 78px;"> 미완료호 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/13  14:11:19 </td>
+          <td> 18/09/13 14:11:24 </td>
+          <td> &nbsp; </td>
+          <td> 01052**1*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/13  14:30:48 </td>
+          <td> 18/09/13 14:30:49 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/13  15:46:17 </td>
+          <td> &nbsp; </td>
+          <td> 02:40 </td>
+          <td> 01052**8*** </td>
+          <td align="right"> 160.00 </td>
+          <td align="right"> 288.00 </td>
+          <td align="right"> 288.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/13  18:29:37 </td>
+          <td> &nbsp; </td>
+          <td> 00:22 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 22.00 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 39.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  08:42:10 </td>
+          <td> &nbsp; </td>
+          <td> 01:21 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 81.00 </td>
+          <td align="right"> 145.80 </td>
+          <td align="right"> 145.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  09:56:17 </td>
+          <td> &nbsp; </td>
+          <td> 01:09 </td>
+          <td> 0264**7*** </td>
+          <td align="right"> 69.00 </td>
+          <td align="right"> 124.20 </td>
+          <td align="right"> 124.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  10:58:57 </td>
+          <td> &nbsp; </td>
+          <td> 01:02 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 62.00 </td>
+          <td align="right"> 111.60 </td>
+          <td align="right"> 111.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  11:59:13 </td>
+          <td> &nbsp; </td>
+          <td> 00:12 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 12.00 </td>
+          <td align="right"> 21.60 </td>
+          <td align="right"> 21.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  12:54:50 </td>
+          <td> &nbsp; </td>
+          <td> 01:08 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 68.00 </td>
+          <td align="right"> 122.40 </td>
+          <td align="right"> 122.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">MMS</td>
+          <td> 18/09/14  13:46:30 </td>
+          <td> 18/09/14 13:47:25 </td>
+          <td> &nbsp; </td>
+          <td> 01033**6*** </td>
+          <td align="right"> 1.00 </td>
+          <td align="right"> 100.00 </td>
+          <td align="right"> 100.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+                  <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  14:38:49 </td>
+          <td> &nbsp; </td>
+          <td> 03:28 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 208.00 </td>
+          <td align="right"> 374.40 </td>
+          <td align="right"> 374.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  16:19:27 </td>
+          <td> &nbsp; </td>
+          <td> 00:20 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 36.00 </td>
+          <td align="right"> 36.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/14  16:27:02 </td>
+          <td> 18/09/14 16:27:04 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/14  16:28:17 </td>
+          <td> 18/09/14 16:28:18 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/14  16:36:17 </td>
+          <td> 18/09/14 16:36:18 </td>
+          <td> &nbsp; </td>
+          <td> 01092**0*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/14  16:41:40 </td>
+          <td> 18/09/14 16:42:40 </td>
+          <td> &nbsp; </td>
+          <td> 01092**0*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/14  16:43:30 </td>
+          <td> 18/09/14 16:44:30 </td>
+          <td> &nbsp; </td>
+          <td> 01092**0*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/14  16:44:28 </td>
+          <td> 18/09/14 16:44:29 </td>
+          <td> &nbsp; </td>
+          <td> 01092**0*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/14  16:44:57 </td>
+          <td> 18/09/14 16:44:58 </td>
+          <td> &nbsp; </td>
+          <td> 01092**0*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  16:46:27 </td>
+          <td> &nbsp; </td>
+          <td> 00:44 </td>
+          <td> 01035**5*** </td>
+          <td align="right"> 44.00 </td>
+          <td align="right"> 79.20 </td>
+          <td align="right"> 79.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+                        <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  18:32:59 </td>
+          <td> &nbsp; </td>
+          <td> 00:20 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 36.00 </td>
+          <td align="right"> 36.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  18:41:42 </td>
+          <td> &nbsp; </td>
+          <td> 00:55 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 55.00 </td>
+          <td align="right"> 99.00 </td>
+          <td align="right"> 99.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  18:46:20 </td>
+          <td> &nbsp; </td>
+          <td> 00:40 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 40.00 </td>
+          <td align="right"> 72.00 </td>
+          <td align="right"> 72.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/14  20:30:52 </td>
+          <td> &nbsp; </td>
+          <td> 00:07 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 7.00 </td>
+          <td align="right"> 12.60 </td>
+          <td align="right"> 12.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  08:01:26 </td>
+          <td> &nbsp; </td>
+          <td> 07:29 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 449.00 </td>
+          <td align="right"> 808.20 </td>
+          <td align="right"> 808.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  08:37:21 </td>
+          <td> &nbsp; </td>
+          <td> 01:30 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 90.00 </td>
+          <td align="right"> 162.00 </td>
+          <td align="right"> 162.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  09:31:36 </td>
+          <td> &nbsp; </td>
+          <td> 00:09 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 9.00 </td>
+          <td align="right"> 16.20 </td>
+          <td align="right"> 16.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  10:39:08 </td>
+          <td> &nbsp; </td>
+          <td> 01:56 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 116.00 </td>
+          <td align="right"> 208.80 </td>
+          <td align="right"> 208.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  11:01:48 </td>
+          <td> &nbsp; </td>
+          <td> 00:12 </td>
+          <td> 01091**5*** </td>
+          <td align="right"> 12.00 </td>
+          <td align="right"> 21.60 </td>
+          <td align="right"> 21.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  11:18:30 </td>
+          <td> &nbsp; </td>
+          <td> 00:39 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 39.00 </td>
+          <td align="right"> 70.20 </td>
+          <td align="right"> 70.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  11:50:47 </td>
+          <td> &nbsp; </td>
+          <td> 00:30 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 30.00 </td>
+          <td align="right"> 54.00 </td>
+          <td align="right"> 54.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  13:32:53 </td>
+          <td> &nbsp; </td>
+          <td> 00:17 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 17.00 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  13:34:01 </td>
+          <td> &nbsp; </td>
+          <td> 00:45 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 45.00 </td>
+          <td align="right"> 81.00 </td>
+          <td align="right"> 81.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  16:59:10 </td>
+          <td> &nbsp; </td>
+          <td> 00:10 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 10.00 </td>
+          <td align="right"> 18.00 </td>
+          <td align="right"> 18.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  21:17:07 </td>
+          <td> &nbsp; </td>
+          <td> 01:39 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 99.00 </td>
+          <td align="right"> 178.20 </td>
+          <td align="right"> 178.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  21:30:59 </td>
+          <td> &nbsp; </td>
+          <td> 00:37 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 37.00 </td>
+          <td align="right"> 66.60 </td>
+          <td align="right"> 66.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  21:31:53 </td>
+          <td> &nbsp; </td>
+          <td> 00:44 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 44.00 </td>
+          <td align="right"> 79.20 </td>
+          <td align="right"> 79.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/15  21:44:36 </td>
+          <td> &nbsp; </td>
+          <td> 00:06 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 6.00 </td>
+          <td align="right"> 10.80 </td>
+          <td align="right"> 10.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  10:03:39 </td>
+          <td> &nbsp; </td>
+          <td> 00:40 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 40.00 </td>
+          <td align="right"> 72.00 </td>
+          <td align="right"> 72.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  11:26:40 </td>
+          <td> &nbsp; </td>
+          <td> 01:12 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 72.00 </td>
+          <td align="right"> 129.60 </td>
+          <td align="right"> 129.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  14:50:12 </td>
+          <td> &nbsp; </td>
+          <td> 00:47 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 47.00 </td>
+          <td align="right"> 84.60 </td>
+          <td align="right"> 84.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  15:12:05 </td>
+          <td> &nbsp; </td>
+          <td> 00:21 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 21.00 </td>
+          <td align="right"> 37.80 </td>
+          <td align="right"> 37.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  17:20:58 </td>
+          <td> &nbsp; </td>
+          <td> 00:15 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 15.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  20:56:22 </td>
+          <td> &nbsp; </td>
+          <td> 00:17 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 17.00 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  20:59:15 </td>
+          <td> &nbsp; </td>
+          <td> 00:52 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 52.00 </td>
+          <td align="right"> 93.60 </td>
+          <td align="right"> 93.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  21:13:42 </td>
+          <td> &nbsp; </td>
+          <td> 01:53 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 113.00 </td>
+          <td align="right"> 203.40 </td>
+          <td align="right"> 203.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/16  21:37:24 </td>
+          <td> &nbsp; </td>
+          <td> 01:35 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 95.00 </td>
+          <td align="right"> 171.00 </td>
+          <td align="right"> 171.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  08:07:50 </td>
+          <td> &nbsp; </td>
+          <td> 00:41 </td>
+          <td> 028**4*** </td>
+          <td align="right"> 41.00 </td>
+          <td align="right"> 73.80 </td>
+          <td align="right"> 73.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/17  09:44:56 </td>
+          <td> 18/09/17 09:44:57 </td>
+          <td> &nbsp; </td>
+          <td> 01092**0*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  12:51:19 </td>
+          <td> &nbsp; </td>
+          <td> 01:04 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 64.00 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                                                                                                                                                                    <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  13:39:14 </td>
+          <td> &nbsp; </td>
+          <td> 01:13 </td>
+          <td> 028**4*** </td>
+          <td align="right"> 73.00 </td>
+          <td align="right"> 131.40 </td>
+          <td align="right"> 131.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                  <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  13:50:52 </td>
+          <td> &nbsp; </td>
+          <td> 00:48 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 48.00 </td>
+          <td align="right"> 86.40 </td>
+          <td align="right"> 86.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+                        <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  15:24:20 </td>
+          <td> &nbsp; </td>
+          <td> 02:04 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 124.00 </td>
+          <td align="right"> 223.20 </td>
+          <td align="right"> 223.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  15:38:11 </td>
+          <td> &nbsp; </td>
+          <td> 02:44 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 164.00 </td>
+          <td align="right"> 295.20 </td>
+          <td align="right"> 295.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  18:27:16 </td>
+          <td> &nbsp; </td>
+          <td> 09:55 </td>
+          <td> 01035**5*** </td>
+          <td align="right"> 595.00 </td>
+          <td align="right"> 1,071.00 </td>
+          <td align="right"> 1,071.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+                                                                                                                  <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  19:32:34 </td>
+          <td> &nbsp; </td>
+          <td> 00:03 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> &nbsp; </td> 
+          <td style="width: 78px;"> 미완료호 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  20:55:40 </td>
+          <td> &nbsp; </td>
+          <td> 00:17 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 17.00 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 30.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  21:22:53 </td>
+          <td> &nbsp; </td>
+          <td> 03:59 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 239.00 </td>
+          <td align="right"> 430.20 </td>
+          <td align="right"> 430.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/17  21:27:31 </td>
+          <td> &nbsp; </td>
+          <td> 00:46 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 46.00 </td>
+          <td align="right"> 82.80 </td>
+          <td align="right"> 82.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/18  08:30:24 </td>
+          <td> &nbsp; </td>
+          <td> 00:12 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 12.00 </td>
+          <td align="right"> 21.60 </td>
+          <td align="right"> 21.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                                <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/18  12:28:48 </td>
+          <td> &nbsp; </td>
+          <td> 00:11 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 11.00 </td>
+          <td align="right"> 19.80 </td>
+          <td align="right"> 19.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/18  15:09:00 </td>
+          <td> 18/09/18 15:09:05 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/18  18:02:59 </td>
+          <td> 18/09/18 18:03:04 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/18  19:13:05 </td>
+          <td> &nbsp; </td>
+          <td> 00:57 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 57.00 </td>
+          <td align="right"> 102.60 </td>
+          <td align="right"> 102.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/18  19:56:22 </td>
+          <td> &nbsp; </td>
+          <td> 00:59 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 59.00 </td>
+          <td align="right"> 106.20 </td>
+          <td align="right"> 106.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/18  20:27:36 </td>
+          <td> &nbsp; </td>
+          <td> 04:00 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 240.00 </td>
+          <td align="right"> 432.00 </td>
+          <td align="right"> 432.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/18  21:25:02 </td>
+          <td> &nbsp; </td>
+          <td> 04:35 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 275.00 </td>
+          <td align="right"> 495.00 </td>
+          <td align="right"> 495.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/18  21:30:09 </td>
+          <td> &nbsp; </td>
+          <td> 01:34 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 94.00 </td>
+          <td align="right"> 169.20 </td>
+          <td align="right"> 169.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+                                                <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/19  15:06:48 </td>
+          <td> 18/09/19 15:06:50 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+                                                                                                <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  16:18:00 </td>
+          <td> &nbsp; </td>
+          <td> 04:31 </td>
+          <td> 01035**5*** </td>
+          <td align="right"> 271.00 </td>
+          <td align="right"> 487.80 </td>
+          <td align="right"> 487.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/19  16:28:49 </td>
+          <td> 18/09/19 16:28:50 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/19  16:29:54 </td>
+          <td> 18/09/19 16:29:55 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/19  16:31:47 </td>
+          <td> 18/09/19 16:31:49 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/19  16:33:03 </td>
+          <td> 18/09/19 16:34:03 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/19  16:33:23 </td>
+          <td> 18/09/19 16:33:28 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+                  <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  18:32:17 </td>
+          <td> &nbsp; </td>
+          <td> 00:52 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 52.00 </td>
+          <td align="right"> 93.60 </td>
+          <td align="right"> 93.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  18:33:28 </td>
+          <td> &nbsp; </td>
+          <td> 01:29 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 89.00 </td>
+          <td align="right"> 160.20 </td>
+          <td align="right"> 160.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+                                          <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  19:11:19 </td>
+          <td> &nbsp; </td>
+          <td> 01:04 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 64.00 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  19:15:39 </td>
+          <td> &nbsp; </td>
+          <td> 00:51 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 51.00 </td>
+          <td align="right"> 91.80 </td>
+          <td align="right"> 91.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  19:21:37 </td>
+          <td> &nbsp; </td>
+          <td> 01:27 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 87.00 </td>
+          <td align="right"> 156.60 </td>
+          <td align="right"> 156.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  19:23:46 </td>
+          <td> &nbsp; </td>
+          <td> 00:38 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 38.00 </td>
+          <td align="right"> 68.40 </td>
+          <td align="right"> 68.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  19:36:34 </td>
+          <td> &nbsp; </td>
+          <td> 00:13 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 13.00 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/19  19:37:54 </td>
+          <td> &nbsp; </td>
+          <td> 00:13 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 13.00 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                    <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/20  06:54:37 </td>
+          <td> 18/09/20 06:54:39 </td>
+          <td> &nbsp; </td>
+          <td> 01075**9*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/20  13:57:23 </td>
+          <td> 18/09/20 13:58:23 </td>
+          <td> &nbsp; </td>
+          <td> 01075**9*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">MMS</td>
+          <td> 18/09/20  13:58:43 </td>
+          <td> 18/09/20 13:58:45 </td>
+          <td> &nbsp; </td>
+          <td> 01075**9*** </td>
+          <td align="right"> 1.00 </td>
+          <td align="right"> 30.00 </td>
+          <td align="right"> 30.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> 컬러메일 </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/20  14:07:05 </td>
+          <td> 18/09/20 14:08:05 </td>
+          <td> &nbsp; </td>
+          <td> 01075**9*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/20  15:29:51 </td>
+          <td> 18/09/20 15:29:52 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/20  15:34:20 </td>
+          <td> &nbsp; </td>
+          <td> 01:07 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 67.00 </td>
+          <td align="right"> 120.60 </td>
+          <td align="right"> 120.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                                      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/20  18:23:30 </td>
+          <td> &nbsp; </td>
+          <td> 01:04 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 64.00 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/20  18:25:35 </td>
+          <td> &nbsp; </td>
+          <td> 00:43 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 43.00 </td>
+          <td align="right"> 77.40 </td>
+          <td align="right"> 77.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                                                                                                                    <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/21  08:29:41 </td>
+          <td> &nbsp; </td>
+          <td> 00:54 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 54.00 </td>
+          <td align="right"> 97.20 </td>
+          <td align="right"> 97.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  10:16:09 </td>
+          <td> 18/09/21 10:16:10 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  10:16:41 </td>
+          <td> 18/09/21 10:16:42 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  10:16:52 </td>
+          <td> 18/09/21 10:16:53 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  10:17:20 </td>
+          <td> 18/09/21 10:17:21 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  10:18:49 </td>
+          <td> 18/09/21 10:18:50 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  10:19:08 </td>
+          <td> 18/09/21 10:19:09 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  10:26:30 </td>
+          <td> 18/09/21 10:26:36 </td>
+          <td> &nbsp; </td>
+          <td> 01035**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+                        <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/21  11:56:26 </td>
+          <td> &nbsp; </td>
+          <td> 00:15 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 15.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/21  12:42:11 </td>
+          <td> &nbsp; </td>
+          <td> 01:31 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 91.00 </td>
+          <td align="right"> 163.80 </td>
+          <td align="right"> 163.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/21  14:25:43 </td>
+          <td> 18/09/21 14:25:44 </td>
+          <td> &nbsp; </td>
+          <td> 01098**2*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+            <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/21  16:01:42 </td>
+          <td> &nbsp; </td>
+          <td> 00:59 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 59.00 </td>
+          <td align="right"> 106.20 </td>
+          <td align="right"> 106.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/21  17:11:05 </td>
+          <td> &nbsp; </td>
+          <td> 00:09 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 9.00 </td>
+          <td align="right"> 16.20 </td>
+          <td align="right"> 16.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/21  17:58:36 </td>
+          <td> &nbsp; </td>
+          <td> 00:31 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 31.00 </td>
+          <td align="right"> 55.80 </td>
+          <td align="right"> 55.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                  <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/21  23:14:05 </td>
+          <td> &nbsp; </td>
+          <td> 01:42 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 102.00 </td>
+          <td align="right"> 183.60 </td>
+          <td align="right"> 183.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/22  08:53:01 </td>
+          <td> &nbsp; </td>
+          <td> 01:58 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 118.00 </td>
+          <td align="right"> 212.40 </td>
+          <td align="right"> 212.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/22  10:47:07 </td>
+          <td> &nbsp; </td>
+          <td> 00:58 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 58.00 </td>
+          <td align="right"> 104.40 </td>
+          <td align="right"> 104.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/22  11:42:28 </td>
+          <td> &nbsp; </td>
+          <td> 00:24 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 24.00 </td>
+          <td align="right"> 43.20 </td>
+          <td align="right"> 43.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/22  13:14:20 </td>
+          <td> &nbsp; </td>
+          <td> 01:28 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 88.00 </td>
+          <td align="right"> 158.40 </td>
+          <td align="right"> 158.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/22  14:10:34 </td>
+          <td> &nbsp; </td>
+          <td> 00:15 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 15.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/22  15:57:25 </td>
+          <td> &nbsp; </td>
+          <td> 00:45 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 45.00 </td>
+          <td align="right"> 81.00 </td>
+          <td align="right"> 81.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  09:38:50 </td>
+          <td> &nbsp; </td>
+          <td> 04:07 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 247.00 </td>
+          <td align="right"> 444.60 </td>
+          <td align="right"> 444.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  14:28:17 </td>
+          <td> &nbsp; </td>
+          <td> 03:16 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 196.00 </td>
+          <td align="right"> 352.80 </td>
+          <td align="right"> 352.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  15:53:51 </td>
+          <td> &nbsp; </td>
+          <td> 03:59 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 239.00 </td>
+          <td align="right"> 430.20 </td>
+          <td align="right"> 430.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  15:58:43 </td>
+          <td> &nbsp; </td>
+          <td> 02:06 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 126.00 </td>
+          <td align="right"> 226.80 </td>
+          <td align="right"> 226.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  16:09:02 </td>
+          <td> &nbsp; </td>
+          <td> 00:14 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 14.00 </td>
+          <td align="right"> 25.20 </td>
+          <td align="right"> 25.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  18:15:35 </td>
+          <td> &nbsp; </td>
+          <td> 00:35 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 35.00 </td>
+          <td align="right"> 63.00 </td>
+          <td align="right"> 63.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  18:18:10 </td>
+          <td> &nbsp; </td>
+          <td> 00:21 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 21.00 </td>
+          <td align="right"> 37.80 </td>
+          <td align="right"> 37.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  18:23:26 </td>
+          <td> &nbsp; </td>
+          <td> 01:13 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 73.00 </td>
+          <td align="right"> 131.40 </td>
+          <td align="right"> 131.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/23  23:12:43 </td>
+          <td> &nbsp; </td>
+          <td> 00:33 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 33.00 </td>
+          <td align="right"> 59.40 </td>
+          <td align="right"> 59.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/24  09:47:41 </td>
+          <td> &nbsp; </td>
+          <td> 01:01 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 61.00 </td>
+          <td align="right"> 109.80 </td>
+          <td align="right"> 109.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/24  09:50:33 </td>
+          <td> &nbsp; </td>
+          <td> 00:23 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 23.00 </td>
+          <td align="right"> 41.40 </td>
+          <td align="right"> 41.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/24  10:39:02 </td>
+          <td> &nbsp; </td>
+          <td> 00:11 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 11.00 </td>
+          <td align="right"> 19.80 </td>
+          <td align="right"> 19.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/24  11:28:25 </td>
+          <td> &nbsp; </td>
+          <td> 01:01 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 61.00 </td>
+          <td align="right"> 109.80 </td>
+          <td align="right"> 109.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/24  13:09:07 </td>
+          <td> &nbsp; </td>
+          <td> 00:36 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 36.00 </td>
+          <td align="right"> 64.80 </td>
+          <td align="right"> 64.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/24  16:07:28 </td>
+          <td> &nbsp; </td>
+          <td> 01:29 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 89.00 </td>
+          <td align="right"> 160.20 </td>
+          <td align="right"> 160.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/25  09:49:38 </td>
+          <td> &nbsp; </td>
+          <td> 01:16 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 76.00 </td>
+          <td align="right"> 136.80 </td>
+          <td align="right"> 136.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/25  09:51:59 </td>
+          <td> &nbsp; </td>
+          <td> 00:19 </td>
+          <td> 166111** </td>
+          <td align="right"> 19.00 </td>
+          <td align="right"> 34.20 </td>
+          <td align="right"> 34.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 영상, 부가전화 300분 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/25  09:52:33 </td>
+          <td> &nbsp; </td>
+          <td> 01:16 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 76.00 </td>
+          <td align="right"> 136.80 </td>
+          <td align="right"> 136.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/25  11:00:01 </td>
+          <td> &nbsp; </td>
+          <td> 00:13 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 13.00 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 23.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/25  11:35:21 </td>
+          <td> &nbsp; </td>
+          <td> 02:39 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 159.00 </td>
+          <td align="right"> 286.20 </td>
+          <td align="right"> 286.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/25  16:51:55 </td>
+          <td> &nbsp; </td>
+          <td> 00:43 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 43.00 </td>
+          <td align="right"> 77.40 </td>
+          <td align="right"> 77.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/26  11:04:25 </td>
+          <td> &nbsp; </td>
+          <td> 00:27 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 48.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/26  11:05:07 </td>
+          <td> &nbsp; </td>
+          <td> 00:29 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 29.00 </td>
+          <td align="right"> 52.20 </td>
+          <td align="right"> 52.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/26  14:28:56 </td>
+          <td> &nbsp; </td>
+          <td> 01:52 </td>
+          <td> 0220**1*** </td>
+          <td align="right"> 112.00 </td>
+          <td align="right"> 201.60 </td>
+          <td align="right"> 201.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                    <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  07:58:28 </td>
+          <td> &nbsp; </td>
+          <td> 02:31 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 151.00 </td>
+          <td align="right"> 271.80 </td>
+          <td align="right"> 271.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  08:17:58 </td>
+          <td> &nbsp; </td>
+          <td> 00:24 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 24.00 </td>
+          <td align="right"> 43.20 </td>
+          <td align="right"> 43.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  08:31:02 </td>
+          <td> &nbsp; </td>
+          <td> 00:08 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 8.00 </td>
+          <td align="right"> 14.40 </td>
+          <td align="right"> 14.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  08:37:02 </td>
+          <td> &nbsp; </td>
+          <td> 00:28 </td>
+          <td> 01029**5*** </td>
+          <td align="right"> 28.00 </td>
+          <td align="right"> 50.40 </td>
+          <td align="right"> 50.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  08:57:36 </td>
+          <td> &nbsp; </td>
+          <td> 00:44 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 44.00 </td>
+          <td align="right"> 79.20 </td>
+          <td align="right"> 79.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  09:12:19 </td>
+          <td> &nbsp; </td>
+          <td> 01:04 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 64.00 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 115.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  09:39:45 </td>
+          <td> &nbsp; </td>
+          <td> 01:12 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 72.00 </td>
+          <td align="right"> 129.60 </td>
+          <td align="right"> 129.60 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  09:42:22 </td>
+          <td> &nbsp; </td>
+          <td> 00:10 </td>
+          <td> 01042**8*** </td>
+          <td align="right"> 10.00 </td>
+          <td align="right"> 18.00 </td>
+          <td align="right"> 18.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                                                                    <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  19:42:51 </td>
+          <td> &nbsp; </td>
+          <td> 00:15 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 15.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/27  19:43:11 </td>
+          <td> &nbsp; </td>
+          <td> 00:15 </td>
+          <td> 01063**4*** </td>
+          <td align="right"> 15.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 27.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/28  08:33:05 </td>
+          <td> &nbsp; </td>
+          <td> 01:33 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 93.00 </td>
+          <td align="right"> 167.40 </td>
+          <td align="right"> 167.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/28  10:32:30 </td>
+          <td> 18/09/28 10:32:34 </td>
+          <td> &nbsp; </td>
+          <td> 01030**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/28  10:33:54 </td>
+          <td> 18/09/28 10:33:57 </td>
+          <td> &nbsp; </td>
+          <td> 01030**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">폰메일통화</td>
+          <td> 18/09/28  10:45:37 </td>
+          <td> 18/09/28 10:45:40 </td>
+          <td> &nbsp; </td>
+          <td> 01030**5*** </td>
+          <td align="right"> &nbsp; </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 20.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SMS/MMS/ⓜ메신저 기본제공 </td> 
+          <td style="width: 78px;"> SMS </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/28  11:46:31 </td>
+          <td> &nbsp; </td>
+          <td> 01:20 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 80.00 </td>
+          <td align="right"> 144.00 </td>
+          <td align="right"> 144.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                    <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/28  17:07:13 </td>
+          <td> &nbsp; </td>
+          <td> 01:51 </td>
+          <td> 028**5*** </td>
+          <td align="right"> 111.00 </td>
+          <td align="right"> 199.80 </td>
+          <td align="right"> 199.80 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+                                                                                    <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/30  10:02:44 </td>
+          <td> &nbsp; </td>
+          <td> 00:34 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 34.00 </td>
+          <td align="right"> 61.20 </td>
+          <td align="right"> 61.20 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/30  17:46:22 </td>
+          <td> &nbsp; </td>
+          <td> 06:25 </td>
+          <td> 01056**4*** </td>
+          <td align="right"> 385.00 </td>
+          <td align="right"> 693.00 </td>
+          <td align="right"> 693.00 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> SKT 고객간 음성 무제한 </td> 
+          <td style="width: 78px;"> 그룹간 통화 </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(HD) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">국내음성통화</td>
+          <td> 18/09/30  20:40:29 </td>
+          <td> &nbsp; </td>
+          <td> 01:18 </td>
+          <td> 01056**5*** </td>
+          <td align="right"> 78.00 </td>
+          <td align="right"> 140.40 </td>
+          <td align="right"> 140.40 </td>
+          <td align="right"> 0 </td>
+          <td style="width: 78px;"> 집전화·이동전화 음성 무제한 </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> HD VOICE 통화(CS) </td>
+      </tr>
+
+
+      <tr>
+          <td class="cate">합계</td>
+          <td> &nbsp;  &nbsp; </td>
+          <td> &nbsp; </td>
+          <td> &nbsp; </td>
+          <td> &nbsp; </td>
+          <td align="right"> 12,233.00(0.00) </td>
+          <td align="right"> 23,425.80 </td>
+          <td align="right"> 23,425.80 </td>
+          <td align="right"> 0.00 </td>
+          <td style="width: 78px;"> &nbsp; </td> 
+          <td style="width: 78px;"> &nbsp; </td>
+          <td class="end" style="width: 65px;"> &nbsp; </td>
+      </tr>
+
+
+      </tbody></table>
+    </div>
+    <!-- 상세내역 : End -->
+  </div>
+  <!-- 이용요금 : End -->
+  
+  <!-- Copyright -->
+  <div class="copyright" style='background: url("http://emailweb.sktelecom.com/template/200910/000000000001862/mainbox-bottom.gif") no-repeat left bottom;'><div><img class="logo-skt" src="http://emailweb.sktelecom.com/template/200910/000000000001862/logo-skt.gif"><img src="http://emailweb.sktelecom.com/template/200910/000000000001862/copyright.gif"></div></div>
+
+</div>
+<!-- 본문BOX : End -->
+
+</div>
+</center>
+
+<br><img width="0" height="0" src="http://realrts.sktelecom.com:9000/servlet/ReceiveConfirmEC?SEND_MODE=R&amp;RESULT_SEQ=1540884261554097&amp;CAMPAIGN_NO=000000000002343&amp;START_DATE=20181030162422&amp;END_DATE=20181106162422&amp;LIST_SEQ=0000000010&amp;RECORD_SEQ=0&amp;CUSTOMER_ID=mnwise64MjAxODEwMzBfRTAwNTA0MDAwMQ==">
+
+
+
+
+
+<div id="InitechCancelMsgToReplace"></div>
+
+<script lanauge="javascript">
+	 CMPlugin_Write();
+</script>
+
+</body></html>
